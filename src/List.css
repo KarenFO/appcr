@@ -1,0 +1,32 @@
+/* Agrega estas clases CSS en tu archivo de estilos CSS */
+.table-container {
+    background-color: #7b68ee; /* Color de fondo morado */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .small-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Borde fino alrededor de la tabla */
+  }
+  
+.small-table th,
+.small-table td {
+  padding: 10px;
+  text-align: center;
+}
+  
+  
+.small-table th {
+    background-color: #7b68ee;
+    color: #fff;
+    border-radius: 2px 2px 0 0;
+  }
+  
+  .small-table td {
+    border-top: none;
+  }
+  
